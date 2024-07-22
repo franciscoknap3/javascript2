@@ -21,7 +21,7 @@ function añadirArticulo(x) {
 };
 
 function obtenerArticulo() {
-    confirm("Aqui seleccione con el numero correspondiente los productos que desea comprar para obtener su descuento");
+    confirm("Seleccione 3 productos para adquirir su descuento");
     let seleccion = prompt("1:rtx3060, 2:rtx3090, 3:rtx4070, 4:ps5, 5:xboxOne, 6:dualsense");
     if (seleccion == 1)  {
      return "rtx3060";
